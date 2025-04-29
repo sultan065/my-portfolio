@@ -800,6 +800,15 @@ main {
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
+.timeline-list li {
+  margin-bottom: 5px; /* Space out the list items for readability */
+  line-height: 1; /* Makes the text more readable */
+  color: white; /* White text color for all timeline list items */
+}
+
+.timeline-list li strong {
+  color: #598d9e; /* Optional: Highlights game names in a blue color */
+}
 
 .timeline-item:not(:last-child)::before {
   content: "";
